@@ -1,0 +1,109 @@
+<link rel="stylesheet" href="static/css/style.css">
+<body>
+    <div class="container">
+
+        <!--1st row / header section-->
+        <div class="row">
+            <div class="col-md-12"><!--navigation bar start-->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">E-Kart34</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Registration</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div><!--navigation bar end-->
+        </div>
+
+        <!--2nd row / main section-->
+        <div class="row mt-3 p-2 bg-light">
+
+            <div class="col-md p-3 bg-light"> <!--side bar start-->
+                <h5>filter by category</h5><hr>
+                <a href="index.html">all</a><br>
+                <a href="a">mobile</a><br>
+                <a href="a">shoes</a><br>
+                <a href="a">clothes</a><br><br>
+
+                <h5>sort by price</h5><hr>
+                <a href="a">high to low</a><br>
+                <a href="a">low to high</a><br><br>
+
+                <h5>filter by price</h5><br>
+                <form action="#" method="get">
+                    <div class="mb-2">
+                        <label for="Input1" class="form-label">Min</label>
+                        <input type="text" class="form-control" id="Input1">
+                    </div>
+                    <div class="mb-2">
+                        <label for="Input2" class="form-label">Max</label>
+                        <input type="text" class="form-control" id="Input2">
+                    </div>
+                    <div class="md-2">
+                        <input type="submit" value="filter" class="btn btn-danger">
+                    </div>
+                </form>
+
+
+
+
+
+            </div> <!--side bar end-->
+
+            <div class="col-md-9 p-3 bg-light"> <!--product list start-->
+                product list
+            </div>  <!--product list end-->
+        </div>
+
+        <!--3rd row / footer section-->
+        <div class="row mt-3 p-2 ">
+            <div class="col-md-4 bg-light p-3">
+                <h5>Address</h5><hr>
+                221-B, 4th floor,<br>
+                Baker Street,<br>
+                London<br>
+                Britain<br>
+                Contact: 53461-46625
+            </div>
+            <div class="col-md-4"><!--quick links-->
+                <h5>Quick Links</h5><hr>
+                <a href="#">Home</a><br>
+                <a href="#">About</a><br>
+                <a href="#">Contact</a><br>
+
+            </div>
+            <div class="col-md-4">
+                social icons
+            </div>
+        </div>
+
+    </div>
+
+</body>
